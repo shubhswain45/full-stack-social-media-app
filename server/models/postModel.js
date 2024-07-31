@@ -57,3 +57,6 @@ const postSchema = mongoose.Schema(
 const Post = mongoose.model("Post", postSchema); // Export Post model
 
 export { Post, Reply };
+
+
+//https://social-media-app-l3y5.onrender.com/auth
