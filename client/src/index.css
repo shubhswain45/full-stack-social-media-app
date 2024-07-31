@@ -1,0 +1,35 @@
+.icon-container {
+	border-radius: 50%;
+	padding: 8px;
+	width: 40px;
+	height: 40px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.icon-container:hover {
+	background-color: #1e1e1e;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Remove background color */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Roundness of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+/* For Firefox */
+.scrollable-container {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #888 transparent; /* Scrollbar thumb color and track color */
+}
